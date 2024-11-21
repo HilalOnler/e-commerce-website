@@ -77,3 +77,16 @@
     max-width: 100%;
     object-fit: cover;
 }
+
+.breadcrumb a {
+    color: #fff;
+    opacity: .9;
+}
+
+.breadcrumb .breadcrumb-item {
+    color: #fff;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
